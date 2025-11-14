@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 // FIX: Corrected import casing for App component to match filename.
-import App from './App';
+import App from './app';
 
 const rootElement = document.getElementById('root');
 if (!rootElement) {
