@@ -5,7 +5,7 @@ import { INITIAL_CATEGORIES, INITIAL_TRANSACTIONS } from './constants';
 import transactionList from './components/transactionList';
 import DonutChart from './components/donutchart.tsx';
 import CustomBarChart from './components/barchart.tsx';
-import IncomeExpenseChart from './components/IncomeExpenseChart';
+import IncomeExpenseChart from './components/incomeexpensechart.tsx';
 import AddTransactionModal from './components/AddTransactionModal';
 import FloatingActionButton from './components/FloatingActionButton';
 import ManageCategoriesModal from './components/ManageCategoriesModal';
