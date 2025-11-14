@@ -2,8 +2,8 @@ import React, { useState, useMemo } from 'react';
 import { Transaction, Category, TransactionType } from './types';
 import { INITIAL_CATEGORIES, INITIAL_TRANSACTIONS } from './constants';
 // FIX: Corrected import casing for all components to match PascalCase filenames.
-import TransactionList from './components/TransactionList';
-import DonutChart from './components/DonutChart';
+import TransactionList from './components/transactionList';
+import DonutChart from './components/donutChart';
 import CustomBarChart from './components/BarChart';
 import IncomeExpenseChart from './components/IncomeExpenseChart';
 import AddTransactionModal from './components/AddTransactionModal';
