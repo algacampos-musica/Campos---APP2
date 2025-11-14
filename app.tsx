@@ -6,9 +6,9 @@ import transactionList from './components/transactionList';
 import DonutChart from './components/donutchart.tsx';
 import CustomBarChart from './components/barchart.tsx';
 import IncomeExpenseChart from './components/incomeexpensechart.tsx';
-import AddTransactionModal from './components/AddTransactionModal';
-import FloatingActionButton from './components/FloatingActionButton';
-import ManageCategoriesModal from './components/ManageCategoriesModal';
+import AddTransactionModal from './components/addtransactionmodal.tsx';
+import FloatingActionButton from './components/floatingactionbutton.tsx';
+import ManageCategoriesModal from './components/managecategoriesmodal.tsx';
 import ConfirmationModal from './components/ConfirmationModal';
 
 type Period = 'all' | '7d' | '30d' | 'custom';
