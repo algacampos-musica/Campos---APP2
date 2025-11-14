@@ -9,7 +9,7 @@ import IncomeExpenseChart from './components/incomeexpensechart.tsx';
 import AddTransactionModal from './components/addtransactionmodal.tsx';
 import FloatingActionButton from './components/floatingactionbutton.tsx';
 import ManageCategoriesModal from './components/managecategoriesmodal.tsx';
-import ConfirmationModal from './components/ConfirmationModal';
+import ConfirmationModal from './components/confirmationmodal.tsx';
 
 type Period = 'all' | '7d' | '30d' | 'custom';
 type ChartType = 'donut' | 'bar';
