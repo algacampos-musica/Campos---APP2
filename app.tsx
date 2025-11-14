@@ -3,7 +3,7 @@ import { Transaction, Category, TransactionType } from './types';
 import { INITIAL_CATEGORIES, INITIAL_TRANSACTIONS } from './constants';
 // FIX: Corrected import casing for all components to match PascalCase filenames.
 import transactionList from './components/transactionList';
-import DonutChart from './components/donutChart';
+import DonutChart from './components/donutChart.tsx';
 import CustomBarChart from './components/barChart';
 import IncomeExpenseChart from './components/IncomeExpenseChart';
 import AddTransactionModal from './components/AddTransactionModal';
