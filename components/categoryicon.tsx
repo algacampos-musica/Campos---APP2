@@ -1,13 +1,13 @@
 import React, { ReactNode } from 'react';
 
-interface CategoryIconProps {
+interface CategoryiconProps {
   icon: ReactNode;
   color: string;
   onClick?: () => void;
   isSelected?: boolean;
 }
 
-const CategoryIcon: React.FC<CategoryIconProps> = ({ icon, color, onClick, isSelected }) => {
+const CategoryIcon: React.FC<CategoryiconProps> = ({ icon, color, onClick, isSelected }) => {
   const selectedClasses = isSelected ? 'ring-2 ring-offset-2 ring-green-500' : '';
   const cursorClass = onClick ? 'cursor-pointer' : '';
 
@@ -21,4 +21,4 @@ const CategoryIcon: React.FC<CategoryIconProps> = ({ icon, color, onClick, isSel
   );
 };
 
-export default CategoryIcon;
+export default Categoryicon;
