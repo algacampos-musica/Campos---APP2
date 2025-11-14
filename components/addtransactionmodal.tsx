@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Transaction, Category, TransactionType } from '../types';
 // FIX: Corrected import path to use PascalCase to match the filename 'CategoryIcon.tsx'.
-import CategoryIcon from './CategoryIcon';
+import CategoryIcon from './categoryicon';
 
 interface AddTransactionModalProps {
   isOpen: boolean;
